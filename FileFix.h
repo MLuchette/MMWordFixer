@@ -5,7 +5,6 @@
 #define FILEFIX_CLASS
 
 #include <string>
-#include <iostream>
 using namespace std;
 
 class IFactory;

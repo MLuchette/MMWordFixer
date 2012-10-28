@@ -1,4 +1,4 @@
-// InteractiveFactory.cpp: implementation of the FEncrypt class.
+// InteractiveFactory.cpp: implementation of the InteractiveFix class.
 //	Matthew Luchette CPSC 430
 //////////////////////////////////////////////////////////////////////
 #include "InteractiveFix.h"
@@ -7,10 +7,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <string>
-
 using namespace std;
-
-
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
 //////////////////////////////////////////////////////////////////////
@@ -30,7 +27,7 @@ InteractiveFix::~InteractiveFix()
 }
 
 //////////////////////////////////////////////////////////////////////
-// IFactory's NewFilter Function for creating a new filter
+// InteractiveFix's DoInteractiveSession Function to filter words
 //////////////////////////////////////////////////////////////////////
 
 void InteractiveFix::DoInteractiveSession()

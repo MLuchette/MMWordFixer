@@ -2,16 +2,11 @@
 //	Matthew Luchette CPSC 430
 //////////////////////////////////////////////////////////////////////
 #include "FilterMgr.h"
-#include "FEncrypt.h"
-#include "FUppercase.h"
-#include "FLowercase.h"
 #include "UCaseFactory.h"
 #include "LCaseFactory.h"
 #include "EncryptFactory.h"
 #include "IFactory.h"
-
 using namespace std;
-
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
 //////////////////////////////////////////////////////////////////////
@@ -37,7 +32,7 @@ std::string FilterMgr::getChoices()
 }
 
 //////////////////////////////////////////////////////////////////////
-// selectFilter function definition. Returns a pointer to an IFilter
+// selectFilter function definition. Returns a pointer to an IFactory
 //////////////////////////////////////////////////////////////////////
 IFactory* FilterMgr::selectFilter(string choice)
 {

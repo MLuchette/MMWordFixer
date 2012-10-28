@@ -5,6 +5,7 @@
 #define FENCRYPT_CLASS
 
 #include "IFilter.h"
+
 class FEncrypt : public IFilter
 {
 	public:

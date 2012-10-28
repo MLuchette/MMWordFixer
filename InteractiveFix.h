@@ -4,8 +4,7 @@
 #if !defined INTERACTIVEFIX_CLASS
 #define INTERACTIVEFIX_CLASS
 
-#include "IFactory.h"
-
+class IFactory;
 class IFilter;
 
 class InteractiveFix

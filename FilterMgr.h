@@ -5,10 +5,8 @@
 #define FILTERMGR_CLASS
 
 #include <string>
-
 using namespace std;
 
-class IFilter;
 class IFactory;
 
 class FilterMgr

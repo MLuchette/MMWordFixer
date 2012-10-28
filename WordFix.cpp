@@ -1,16 +1,12 @@
-// WordFix.cpp: Demonstration of the IFilter functionality and WordFix program
+// WordFix.cpp: Demonstration of the IFactory functionality and MMWordFix program
 //	Matthew Luchette CPSC 430
 //////////////////////////////////////////////////////////////////////
 #include "FilterMgr.h"
-#include "IFilter.h"
-#include "IFactory.h"
 #include "InteractiveFix.h"
 #include "FileFix.h"
 #include <iostream>
-#include <stdio.h>
 #include <string>
 #include <fstream>
-
 using namespace std;
 
 int main() {
@@ -68,7 +64,7 @@ int main() {
 				cin >> fileName;
 				ifstream myFile(fileName);
 				if(!myFile)
-					cout << "File doesn't exist.";
+					cout << "File doesn't exist." << endl;
 				else
 				{
 					fFix.ConvertFile(fileName);
@@ -97,6 +93,5 @@ int main() {
 			}
 		}
 	}
-	
 	return 0;
 }

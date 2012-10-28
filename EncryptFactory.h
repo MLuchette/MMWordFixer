@@ -5,6 +5,7 @@
 #define ENCRYPTFACTORY_CLASS
 
 #include "IFactory.h"
+
 class IFilter;
 
 class EncryptFactory : public IFactory

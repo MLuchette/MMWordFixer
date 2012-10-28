@@ -5,6 +5,7 @@
 #define LCASEFACTORY_CLASS
 
 #include "IFactory.h"
+
 class IFilter;
 
 class LCaseFactory : public IFactory

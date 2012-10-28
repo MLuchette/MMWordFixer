@@ -4,13 +4,9 @@
 #include "FileFix.h"
 #include "IFactory.h"
 #include "IFilter.h"
-#include <iostream>
 #include <stdio.h>
 #include <fstream>
-
 using namespace std;
-
-
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
 //////////////////////////////////////////////////////////////////////
@@ -30,9 +26,8 @@ FileFix::~FileFix()
 }
 
 //////////////////////////////////////////////////////////////////////
-// FileFix's ConvertFile Function for converting a file by filtering
+// FileFix's ConvertFile Function for filtering a file
 //////////////////////////////////////////////////////////////////////
-
 void FileFix::ConvertFile(string fileName)
 {
 	string line;

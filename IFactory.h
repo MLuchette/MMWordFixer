@@ -4,8 +4,6 @@
 #if !defined IFACTORY_CLASS
 #define IFACTORY_CLASS
 
-#include <iostream>
-
 class IFilter;
 
 class IFactory
